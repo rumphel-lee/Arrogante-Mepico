@@ -183,6 +183,7 @@ main > .aboutUsHolder > .aboutUsContent > .leftSide > .imageHolder{
     margin: 5px;
     padding: 10px;
     background-color: rgba(251, 248, 249, 0.697);
+    overflow: hidden;
 }
 
 .projectBox > .imageHolder{
@@ -376,9 +377,75 @@ footer{
     text-align: center;
 }
 
+
+
+#project1{
+    background-image: url(./pic/1.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project2{
+    background-image: url(./pic/2.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project3{
+    background-image: url(./pic/3.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project4{
+    background-image: url(./pic/4.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project5{
+    background-image: url(./pic/5.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project6{
+    background-image: url(./pic/6.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project7{
+    background-image: url(./pic/7.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+#project8{
+    background-image: url(./pic/8.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+
+
+/* .projectPic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
 @media only screen and (max-width: 700px){
     main > .aboutUsHolder > .aboutUsContent{
-        width: 90dvw;
+        width: 95dvw;
         flex-direction: column;
     }
     main > .aboutUsHolder > .aboutUsContent > .leftSide {
@@ -393,15 +460,43 @@ footer{
     } 
 
     main > .aboutUsHolder > .aboutUsContent > .rightSide > .name {
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-bottom: 10px;
     }
     main > .aboutUsHolder > .aboutUsContent > .leftSide > .imageHolder{
         margin: 50px;
     }
 
+    section > h1{
+        font-size: 1.4em!important;
+    }
+
+    article.content{
+        font-size: .9em!important;
+    }
+
     table{
         max-width: 90vw;
     }
+
+    button{
+        font-size: 1em!important;
+    }
+
+    .descriptionHolder > h2{
+        font-size: 1.3em!important;
+    }
+
+    /* header{
+       display: flex;
+       flex-direction: column;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    } */
 
     .secondAboutUs{
         flex-direction: column-reverse!important;
@@ -414,6 +509,10 @@ footer{
     .contactUsContent{
         flex-direction: column;
         
+    }
+
+    .projectBox{
+        height: 30dvh!important;
     }
 
     .contactUsContent > .leftSide{
@@ -435,5 +534,19 @@ footer{
 
     .contactUsContent > .rightSide form{
         width: 100%!important;
+    }
+
+    .contactUS{
+        width: 95dvw!important;
+    }
+
+    header  h1{
+        font-size: 1.2em!important;
+        margin-left: 2px;
+    }
+
+    nav > a{
+        padding: 5px!important;
+        font-size: .8em!important;
     }
 }
